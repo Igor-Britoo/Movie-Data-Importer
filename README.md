@@ -21,7 +21,6 @@ Clone this repository to your local machine:
   ```
 
 ### Step 2: Create a Virtual Environment
-
 1. **Create a virtual environment**:
   ```bash
   virtualenv venv
@@ -100,13 +99,21 @@ With your virtual environment activated, install the required dependencies:
   ```
 
 ## Running the Script
+1. Ensure the virtual environment is activated.
+
+2. Navigate to the `src` directory:
+  ```
+  cd src
+  ```
+
+3. Run the script:
   - **For Mac and Linux:**
     ```
-    python3 ./src/movie_data_importer.py
+    python3 ./movie_data_importer.py
     ```
   - **For Windows:**
     ```
-    python ./src/movie_data_importer.py
+    python ./movie_data_importer.py
     ```
 
 The script will read data from the specified CSV file and insert it into the `movies` table in your DataStax Astra database.
