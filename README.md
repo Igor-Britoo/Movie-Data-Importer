@@ -16,8 +16,8 @@ This script reads movie data from a CSV file and inserts it into a DataStax Astr
 ### Step 1: Clone the Repository
 Clone this repository to your local machine:
   ```bash
-  git clone https://github.com/yourusername/movie_data_importer.git
-  cd movie_data_importer
+  git clone git@github.com:Igor-Britoo/Movie-Data-Importer.git
+  cd Movie-Data-Importer
   ```
 
 ### Step 2: Create a Virtual Environment
